@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  api:
+    image: datascientest/fastapi:1.0.0
+    container_name: api
+    ports:
+      - "8000:8000"
+    networks:
+      - testnet
+
+  auth_test:
+    build:
+      context: .
+      dockerfile: Dockerfile.auth
+    container_name: auth_test
+    environment:
+      - LOG=1
+    volumes:
+      - ./logs:/logs
+    networks:
+      - testnet
+    depends_on:
+      - api
+
+  authz_test:
+    build:
+      context: .
+      dockerfile: Dockerfile.authz
+    container_name: authz_test
+    environment:
+      - LOG=1
+    volumes:
+      - ./logs:/logs
+    networks:
+      - testnet
+    depends_on:
+      - api
+
+  content_test:
+    build:
+      context: .
+      dockerfile: Dockerfile.content
+    container_name: content_test
+    environment:
+      - LOG=1
+    volumes:
+      - ./logs:/logs
+    networks:
+      - testnet
+    depends_on:
+      - api
+
+networks:
+  testnet:
+    driver: bridge

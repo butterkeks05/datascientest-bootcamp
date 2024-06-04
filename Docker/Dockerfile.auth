@@ -1,0 +1,10 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY tests/auth_test.py /app
+
+# Upgrade pip3 before installing requests
+RUN pip3 install --upgrade pip && pip3 install requests
+
+CMD ["python3", "auth_test.py"]
