@@ -1,0 +1,349 @@
+['admin', 'config', 'local', 'sample']
+['books', 'zips']
+{'_id': 2,
+ 'authors': ['W. Frank Ableson', 'Robi Sen'],
+ 'categories': ['Java'],
+ 'isbn': '1935182722',
+ 'longDescription': 'When it comes to mobile apps, Android can do almost '
+                    'anything   and with this book, so can you! Android runs '
+                    'on mobile devices ranging from smart phones to tablets to '
+                    "countless special-purpose gadgets. It's the broadest "
+                    'mobile platform available.    Android in Action, Second '
+                    'Edition is a comprehensive tutorial for Android '
+                    'developers. Taking you far beyond "Hello Android," this '
+                    "fast-paced book puts you in the driver's seat as you "
+                    'learn important architectural concepts and implementation '
+                    "strategies. You'll master the SDK, build WebKit apps "
+                    'using HTML 5, and even learn to extend or replace '
+                    "Android's built-in features by building useful and "
+                    'intriguing examples. ',
+ 'pageCount': 592,
+ 'publishedDate': datetime.datetime(2011, 1, 14, 8, 0),
+ 'shortDescription': 'Android in Action, Second Edition is a comprehensive '
+                     'tutorial for Android developers. Taking you far beyond '
+                     '"Hello Android," this fast-paced book puts you in the '
+                     "driver's seat as you learn important architectural "
+                     "concepts and implementation strategies. You'll master "
+                     'the SDK, build WebKit apps using HTML 5, and even learn '
+                     "to extend or replace Android's built-in features by "
+                     'building useful and intriguing examples. ',
+ 'status': 'PUBLISH',
+ 'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson2.jpg',
+ 'title': 'Android in Action, Second Edition'}
+Number of documents in the collection: 431
+Number of books with more than 400 pages: 157
+Number of books with more than 400 pages and are published: 155
+Number of books with the keyword 'Android' in their description: 4
+Distinct categories at index 0: []
+Distinct categories at index 1: []
+Number of books containing the language names in their long description: 263
+{'_id': 2, 'year': 2011, 'month': 1, 'day': 14}
+{'_id': 3, 'year': 2011, 'month': 6, 'day': 3}
+{'_id': 5, 'year': 2010, 'month': 11, 'day': 15}
+{'_id': 9, 'year': 2012, 'month': 6, 'day': 4}
+{'_id': 8, 'year': 2010, 'month': 10, 'day': 15}
+{'_id': 10, 'year': 2011, 'month': 12, 'day': 12}
+{'_id': 16, 'year': 2010, 'month': 4, 'day': 16}
+{'_id': 17, 'year': 2011, 'month': 12, 'day': 12}
+{'_id': 30, 'year': 2010, 'month': 6, 'day': 1}
+{'_id': 36, 'year': 2011, 'month': 5, 'day': 15}
+{'_id': 37, 'year': 2012, 'month': 2, 'day': 13}
+{'_id': 41, 'year': 2013, 'month': 11, 'day': 1}
+{'_id': 45, 'year': 2010, 'month': 1, 'day': 1}
+{'_id': 54, 'year': 2011, 'month': 9, 'day': 30}
+{'_id': 52, 'year': 2010, 'month': 9, 'day': 4}
+{'_id': 65, 'year': 2012, 'month': 10, 'day': 17}
+{'_id': 73, 'year': 2012, 'month': 4, 'day': 13}
+{'_id': 74, 'year': 2012, 'month': 7, 'day': 27}
+{'_id': 133, 'year': 2011, 'month': 4, 'day': 6}
+{'_id': 137, 'year': 2012, 'month': 2, 'day': 13}
+{'_id': 2, 'author1': 'W. Frank Ableson', 'author2': 'Robi Sen'}
+{'_id': 3, 'author1': 'Gojko Adzic'}
+{'_id': 1, 'author1': 'W. Frank Ableson', 'author2': 'Charlie Collins', 'author3': 'Robi Sen'}
+{'_id': 4, 'author1': 'Tariq Ahmed with Jon Hirschi', 'author2': 'Faisal Abid'}
+{'_id': 5, 'author1': 'Tariq Ahmed', 'author2': 'Dan Orlando', 'author3': 'John C. Bland II'}
+{'_id': 7, 'author1': 'Rob Allen', 'author2': 'Nick Lo', 'author3': 'Steven Brown'}
+{'_id': 6, 'author1': 'Satnam Alag'}
+{'_id': 9, 'author1': 'Andres Almiray', 'author2': 'Danno Ferrin', 'author3': ''}
+{'_id': 8, 'author1': 'Bernerd Allmon', 'author2': 'Jeremy Anderson'}
+{'_id': 10, 'author1': 'Alexandre de Castro Alves'}
+{'_id': 11, 'author1': 'Peter Armstrong'}
+{'_id': 13, 'author1': 'Peter Armstrong'}
+{'_id': 14, 'author1': 'Levi Asher', 'author2': 'Christian Crumlish'}
+{'_id': 15, 'author1': 'Jamil Azher'}
+{'_id': 16, 'author1': 'Kyle Baley', 'author2': 'Donald Belcham'}
+{'_id': 18, 'author1': 'Michael J. Barlotta'}
+{'_id': 17, 'author1': 'Kyle Banker'}
+{'_id': 19, 'author1': 'Michael Barlotta'}
+{'_id': 20, 'author1': 'Michael J. Barlotta', 'author2': 'Jason R. Weiss'}
+{'_id': 21, 'author1': 'Jon Barrilleaux'}
+ubuntu@ip-172-31-15-190:~/datascientest_excersice/.github/workflows$ python3 exam_pymongo.py 
+['admin', 'config', 'local', 'sample']
+['books', 'zips']
+{'_id': 2,
+ 'authors': ['W. Frank Ableson', 'Robi Sen'],
+ 'categories': ['Java'],
+ 'isbn': '1935182722',
+ 'longDescription': 'When it comes to mobile apps, Android can do almost '
+                    'anything   and with this book, so can you! Android runs '
+                    'on mobile devices ranging from smart phones to tablets to '
+                    "countless special-purpose gadgets. It's the broadest "
+                    'mobile platform available.    Android in Action, Second '
+                    'Edition is a comprehensive tutorial for Android '
+                    'developers. Taking you far beyond "Hello Android," this '
+                    "fast-paced book puts you in the driver's seat as you "
+                    'learn important architectural concepts and implementation '
+                    "strategies. You'll master the SDK, build WebKit apps "
+                    'using HTML 5, and even learn to extend or replace '
+                    "Android's built-in features by building useful and "
+                    'intriguing examples. ',
+ 'pageCount': 592,
+ 'publishedDate': datetime.datetime(2011, 1, 14, 8, 0),
+ 'shortDescription': 'Android in Action, Second Edition is a comprehensive '
+                     'tutorial for Android developers. Taking you far beyond '
+                     '"Hello Android," this fast-paced book puts you in the '
+                     "driver's seat as you learn important architectural "
+                     "concepts and implementation strategies. You'll master "
+                     'the SDK, build WebKit apps using HTML 5, and even learn '
+                     "to extend or replace Android's built-in features by "
+                     'building useful and intriguing examples. ',
+ 'status': 'PUBLISH',
+ 'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson2.jpg',
+ 'title': 'Android in Action, Second Edition'}
+Number of documents in the collection: 431
+Number of books with more than 400 pages: 157
+Number of books with more than 400 pages and are published: 155
+Number of books with the keyword 'Android' in their description: 4
+Distinct categories at index 0: []
+Distinct categories at index 1: []
+Number of books containing the language names in their long description: 263
+Category: Web Development
+Maximum number of pages: 688
+Minimum number of pages: 300
+Average number of pages: 441.47058823529414
+
+Category: XML
+Maximum number of pages: 680
+Minimum number of pages: 304
+Average number of pages: 482.0
+
+Category: Software Engineering
+Maximum number of pages: 544
+Minimum number of pages: 0
+Average number of pages: 287.75
+
+Category: java
+Maximum number of pages: 0
+Minimum number of pages: 0
+Average number of pages: 0.0
+
+Category: Miscellaneous
+Maximum number of pages: 1096
+Minimum number of pages: 316
+Average number of pages: 706.0
+
+Category: Object-Technology Programming
+Maximum number of pages: 200
+Minimum number of pages: 200
+Average number of pages: 200.0
+
+Category: Business
+Maximum number of pages: 696
+Minimum number of pages: 180
+Average number of pages: 404.1666666666667
+
+Category: SOA
+Maximum number of pages: 250
+Minimum number of pages: 250
+Average number of pages: 250.0
+
+Category: Client Server
+Maximum number of pages: 368
+Minimum number of pages: 368
+Average number of pages: 368.0
+
+Category: In Action
+Maximum number of pages: 0
+Minimum number of pages: 0
+Average number of pages: 0.0
+
+Category: Computer Graph
+Maximum number of pages: 400
+Minimum number of pages: 400
+Average number of pages: 400.0
+
+Category: Next Generation Databases
+Maximum number of pages: 0
+Minimum number of pages: 0
+Average number of pages: 0.0
+
+Category: Networking
+Maximum number of pages: 591
+Minimum number of pages: 0
+Average number of pages: 366.42857142857144
+
+Category: Mobile
+Maximum number of pages: 416
+Minimum number of pages: 416
+Average number of pages: 416.0
+
+Category: internet
+Maximum number of pages: 400
+Minimum number of pages: 400
+Average number of pages: 400.0
+
+Category: Python
+Maximum number of pages: 688
+Minimum number of pages: 350
+Average number of pages: 482.3333333333333
+
+Category: Client-Server
+Maximum number of pages: 1101
+Minimum number of pages: 220
+Average number of pages: 516.0
+
+Category: Object-Oriented Programming
+Maximum number of pages: 512
+Minimum number of pages: 350
+Average number of pages: 408.5
+
+Category: Microsoft
+Maximum number of pages: 925
+Minimum number of pages: 344
+Average number of pages: 572.375
+
+Category: Open Source
+Maximum number of pages: 532
+Minimum number of pages: 416
+Average number of pages: 474.0
+
+Category: .NET
+Maximum number of pages: 925
+Minimum number of pages: 925
+Average number of pages: 925.0
+
+Category: Theory
+Maximum number of pages: 591
+Minimum number of pages: 280
+Average number of pages: 420.42857142857144
+
+Category: P
+Maximum number of pages: 512
+Minimum number of pages: 512
+Average number of pages: 512.0
+
+Category: S
+Maximum number of pages: 350
+Minimum number of pages: 350
+Average number of pages: 350.0
+
+Category: Programming
+Maximum number of pages: 570
+Minimum number of pages: 0
+Average number of pages: 362.1666666666667
+
+Category: Microsoft/.NET
+Maximum number of pages: 0
+Minimum number of pages: 0
+Average number of pages: 0.0
+
+Category: PowerBuilder
+Maximum number of pages: 550
+Minimum number of pages: 362
+Average number of pages: 433.7142857142857
+
+Category: PHP
+Maximum number of pages: 552
+Minimum number of pages: 552
+Average number of pages: 552.0
+
+Category: Internet
+Maximum number of pages: 912
+Minimum number of pages: 0
+Average number of pages: 441.2439024390244
+
+Category: Software Development
+Maximum number of pages: 600
+Minimum number of pages: 600
+Average number of pages: 600.0
+
+Category: Computer Graphics
+Maximum number of pages: 840
+Minimum number of pages: 328
+Average number of pages: 520.3333333333334
+
+Category: Algorithmic Art
+Maximum number of pages: 0
+Minimum number of pages: 0
+Average number of pages: 0.0
+
+Category: Miscella
+Maximum number of pages: 0
+Minimum number of pages: 0
+Average number of pages: 0.0
+
+Category: 
+Maximum number of pages: 368
+Minimum number of pages: 200
+Average number of pages: 284.0
+
+Category: Java
+Maximum number of pages: 1088
+Minimum number of pages: 0
+Average number of pages: 412.21875
+
+Category: Perl
+Maximum number of pages: 504
+Minimum number of pages: 304
+Average number of pages: 385.3333333333333
+
+Category: Microsoft .NET
+Maximum number of pages: 848
+Minimum number of pages: 0
+Average number of pages: 437.02941176470586
+
+Category: Mobile Technology
+Maximum number of pages: 504
+Minimum number of pages: 0
+Average number of pages: 296.5
+
+{'_id': 2, 'year': 2011, 'month': 1, 'day': 14}
+{'_id': 3, 'year': 2011, 'month': 6, 'day': 3}
+{'_id': 5, 'year': 2010, 'month': 11, 'day': 15}
+{'_id': 9, 'year': 2012, 'month': 6, 'day': 4}
+{'_id': 8, 'year': 2010, 'month': 10, 'day': 15}
+{'_id': 10, 'year': 2011, 'month': 12, 'day': 12}
+{'_id': 16, 'year': 2010, 'month': 4, 'day': 16}
+{'_id': 17, 'year': 2011, 'month': 12, 'day': 12}
+{'_id': 30, 'year': 2010, 'month': 6, 'day': 1}
+{'_id': 36, 'year': 2011, 'month': 5, 'day': 15}
+{'_id': 37, 'year': 2012, 'month': 2, 'day': 13}
+{'_id': 41, 'year': 2013, 'month': 11, 'day': 1}
+{'_id': 45, 'year': 2010, 'month': 1, 'day': 1}
+{'_id': 54, 'year': 2011, 'month': 9, 'day': 30}
+{'_id': 52, 'year': 2010, 'month': 9, 'day': 4}
+{'_id': 65, 'year': 2012, 'month': 10, 'day': 17}
+{'_id': 73, 'year': 2012, 'month': 4, 'day': 13}
+{'_id': 74, 'year': 2012, 'month': 7, 'day': 27}
+{'_id': 133, 'year': 2011, 'month': 4, 'day': 6}
+{'_id': 137, 'year': 2012, 'month': 2, 'day': 13}
+{'_id': 2, 'author1': 'W. Frank Ableson', 'author2': 'Robi Sen'}
+{'_id': 3, 'author1': 'Gojko Adzic'}
+{'_id': 1, 'author1': 'W. Frank Ableson', 'author2': 'Charlie Collins', 'author3': 'Robi Sen'}
+{'_id': 4, 'author1': 'Tariq Ahmed with Jon Hirschi', 'author2': 'Faisal Abid'}
+{'_id': 5, 'author1': 'Tariq Ahmed', 'author2': 'Dan Orlando', 'author3': 'John C. Bland II'}
+{'_id': 7, 'author1': 'Rob Allen', 'author2': 'Nick Lo', 'author3': 'Steven Brown'}
+{'_id': 6, 'author1': 'Satnam Alag'}
+{'_id': 9, 'author1': 'Andres Almiray', 'author2': 'Danno Ferrin', 'author3': ''}
+{'_id': 8, 'author1': 'Bernerd Allmon', 'author2': 'Jeremy Anderson'}
+{'_id': 10, 'author1': 'Alexandre de Castro Alves'}
+{'_id': 11, 'author1': 'Peter Armstrong'}
+{'_id': 13, 'author1': 'Peter Armstrong'}
+{'_id': 14, 'author1': 'Levi Asher', 'author2': 'Christian Crumlish'}
+{'_id': 15, 'author1': 'Jamil Azher'}
+{'_id': 16, 'author1': 'Kyle Baley', 'author2': 'Donald Belcham'}
+{'_id': 18, 'author1': 'Michael J. Barlotta'}
+{'_id': 17, 'author1': 'Kyle Banker'}
+{'_id': 19, 'author1': 'Michael Barlotta'}
+{'_id': 20, 'author1': 'Michael J. Barlotta', 'author2': 'Jason R. Weiss'}
+{'_id': 21, 'author1': 'Jon Barrilleaux'}
